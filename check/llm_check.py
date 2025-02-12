@@ -6,8 +6,8 @@ from groq import Groq
 
 # Load environment variables
 load_dotenv()
-API_KEY = "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" 
-#API_KEY = os.getenv("GROQ_API_KEY")
+API_KEY = os.getenv("GROQ_API_KEY")
+
 client = Groq(api_key=API_KEY)
 
 
