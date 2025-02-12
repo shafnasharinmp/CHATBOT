@@ -94,15 +94,17 @@ The chatbot provides the following REST API endpoints:
 
 ## Resources
 •	https://openai.com/index/whisper/
+<br>
 •	https://github.com/coqui-ai/TTS
-•	https://www.gradio.app/guides/quickstart
-•	https://www.assemblyai.com/docs
-•	https://elevenlabs.io/docs/api-reference/introduction
-•	https://docs.tavily.com/guides/introduction
-•	https://console.groq.com/docs/speech-text
-•	https://cookbook.openai.com/examples/voice_solution
-•	https://fastapi.tiangolo.com/
-•	http://127.0.0.1:8000/redoc
+<br>
+•	https://www.gradio.app/guides/quickstart<br>
+•	https://www.assemblyai.com/docs<br>
+•	https://elevenlabs.io/docs/api-reference/introduction<br>
+•	https://docs.tavily.com/guides/introduction<br>
+•	https://console.groq.com/docs/speech-text<br>
+•	https://cookbook.openai.com/examples/voice_solution<br>
+•	https://fastapi.tiangolo.com/<br>
+•	http://127.0.0.1:8000/redoc<br>
 •	http://127.0.0.1:8000/docs
 
 ---
