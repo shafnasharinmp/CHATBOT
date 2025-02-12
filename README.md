@@ -68,14 +68,13 @@ This is a fully voice-enabled chatbot that allows users to interact using spoken
 ```
 ---
 
-## API Endpoints
-The chatbot provides the following REST API endpoints:
+## Key Techniques
 
-| Endpoint  | Description |
+| Technique | Description |
 |-----------|-------------|
-| `/asr`    | Converts speech to text |
-| `/llm`    | Processes text using LLM |
-| `/tts`    | Converts text to speech |
+| `ASR`     | Converts speech to text |
+| `LLM`     | Processes text using LLM |
+| `TTS`     | Converts text to speech |
 
 ---
 
@@ -89,10 +88,10 @@ The chatbot provides the following REST API endpoints:
 
 In my Draft :
 
-Assembly AI : Speech-to-text transcription with advanced AI models.
-Groq AI : High-speed inference for LLMs, optimizing AI performance(Low Latency).
-Tavily AI : AI-driven web search and data extraction for real-time insights.
-Coqui AI : open-source text-to-speech (TTS) models for lifelike voice synthesis.
+Assembly AI : Speech-to-text transcription with advanced AI models.<br>
+Groq AI : High-speed inference for LLMs, optimizing AI performance(Low Latency).<br>
+Tavily AI : AI-driven web search and data extraction for real-time insights.<br>
+Coqui AI : open-source text-to-speech (TTS) models for lifelike voice synthesis.<br>
 ElevenLabs : AI-powered text-to-speech (TTS) with ultra-realistic voice synthesis.
 
 ---
