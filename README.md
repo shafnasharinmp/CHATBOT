@@ -105,7 +105,15 @@ source venv/bin/activate  # On Windows, use: venv\Scripts\activate
 ```sh
 pip install -r requirements.txt
 ```
+
+**4. Run sample App**
+```sh
+streamlit run streamlit_app.py
+```
 ---
+
+
+
 ## Contribution Guidelines
 
 1. Fork the repository and create a new branch (`feature/your-feature`).
