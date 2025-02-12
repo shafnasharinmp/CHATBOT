@@ -31,6 +31,7 @@ This is a fully voice-enabled chatbot that allows users to interact using spoken
 
 ---
 ![Image](https://github.com/user-attachments/assets/0b3e77e3-4223-4435-a45d-993bcaf6ffdb)
+
 ---
 ## Project Structure
 ```
