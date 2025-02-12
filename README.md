@@ -72,7 +72,7 @@ from utils
 │── README.md          # Documentation
 ```**
 
----
+**---
 
 ## Technologies Used
 - **Speech-to-Text (ASR)**: Google Cloud Speech-to-Text API
@@ -89,7 +89,7 @@ from utils
 2. Commit your changes and push to GitHub
 3. Create a Pull Request (PR) for review
 
----
+---**
 
 
 ## Contact
