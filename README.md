@@ -30,7 +30,8 @@ This is a fully voice-enabled chatbot that allows users to interact using spoken
     - Allows easy customization and integration with other AI services.
 
 ---
-
+![Image](https://github.com/user-attachments/assets/b7d9086a-11b2-4e67-8f2b-f6f09c40f565)
+---
 ## Project Structure
 ```
 
@@ -86,7 +87,7 @@ This is a fully voice-enabled chatbot that allows users to interact using spoken
 - Frontend Framework: Streamlit
 - Async Processing: WebSockets, asyncio
 
-In my Draft :
+Project :
 
 Assembly AI : Speech-to-text transcription with advanced AI models.<br>
 Groq AI : High-speed inference for LLMs, optimizing AI performance(Low Latency).<br>
@@ -104,7 +105,9 @@ WebSockets: Real-time communication between client and server.<br>
 asyncio: Python’s async programming for better concurrency.
 
 ---
-
+![Image](https://github.com/user-attachments/assets/eb5ecffe-cfb4-49b8-8b14-bc2bf2eb4158)
+![Image](https://github.com/user-attachments/assets/12f3e948-2ee3-435a-9727-99a39b3cfcd3)
+---
 ## Resources
 •	https://openai.com/index/whisper/<br>
 •	https://github.com/coqui-ai/TTS<br>
