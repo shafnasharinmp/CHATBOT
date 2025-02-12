@@ -33,21 +33,38 @@ This is a fully voice-enabled chatbot that allows users to interact using spoken
 
 ## Project Structure
 ```
+
+│── AI_Agent
+│ ├── AI_LLM_Agent(OpenAI ,Groq & Tavily)/..
+│ ├── ASR/..
+│ ├── TTS/..
+└── AssemblyAI_CHATBOT/
+    ├── app.py
+    ├── readme.md
+    ├── requirements.txt
+    ├── setup_windows.bat
+    └── setup.sh
 │── check/
-│   ├── stt_to_tts.ipynb         # STT to TTS flow test
-│   ├── asr_whisper_check.py      # Speech-to-Text (Whisper AI)
-│   ├── asr_check.py              # Speech-to-Text (Assembly AI)
-│   ├── llm_check.py              # Language Model Processing (Groq AI)
-│   ├── tts_check.py              # Text-to-Speech (Coqui AI)
-│   ├── tts_hf_check.py           # Text-to-Speech (Hugging Face T5)
+│   ├── stt_to_tts.ipynb          
+│   ├── asr_whisper_check.py     
+│   ├── asr_check.py              
+│   ├── llm_check.py             
+│   ├── tts_check.py             
+│   ├── tts_hf_check.py           
 │── utils.py                      # Utility functions for STT, LLM, and TTS
-│── streamlit.py                   # Frontend implementation (Streamlit)
-│── FastAPI.py                     # Backend implementation (FastAPI)
-│── openAPI_utils.py               # OpenAI utilities for STT, LLM, and TTS
-│── openAPI_streamlit.py           # Alternative frontend (Streamlit with OpenAI)
-│── openAPI_FastAPI.py             # Alternative backend (FastAPI with OpenAI)
-│── requirements.txt               # Project dependencies
-│── README.md                      # Documentation
+│── streamlit_app.py              # Frontend implementation (Streamlit)
+│── FastAPI.py                    # Backend implementation (FastAPI)
+│── openAPI_utils.py              # OpenAI utilities for STT, LLM, and TTS
+│── openAPI_streamlit.py          # Alternative frontend (Streamlit with OpenAI)
+│── openAPI_FastAPI.py            # Alternative backend (FastAPI with OpenAI)
+│── Docker_streamlit              # Docker for streamlit
+│── Docker_streamlit_compose.py   # Docker compose for streamlit
+│── LLM.ipynb                     # LLM implementation - eg
+│── ASR_To_STT.ipynb              # ASR and STT implentation - eg
+│── Ask_Qn.mp4                    # Result 
+│── Give_Ans.mp4                  # Result
+│── requirements.txt              # Project dependencies
+│── README.md                     # Documentation
 ```
 ---
 
@@ -69,6 +86,14 @@ The chatbot provides the following REST API endpoints:
 - Backend Framework: FastAPI
 - Frontend Framework: Streamlit
 - Async Processing: WebSockets, asyncio
+
+In my Draft :
+
+Assembly AI : Speech-to-text transcription with advanced AI models.
+Groq AI : High-speed inference for LLMs, optimizing AI performance(Low Latency).
+Tavily AI : AI-driven web search and data extraction for real-time insights.
+Coqui AI : open-source text-to-speech (TTS) models for lifelike voice synthesis.
+ElevenLabs : AI-powered text-to-speech (TTS) with ultra-realistic voice synthesis.
 
 ---
 
@@ -92,21 +117,15 @@ The chatbot provides the following REST API endpoints:
 **1. Clone the Repository**
 ```sh
 git clone https://github.com/shafnasharinmp/CHATBOT.git
-cd voice-enabled-chatbot
+cd CHATBOT
 ```
 
-**2. Create a Virtual Environment (Optional)**
-```sh
-python -m venv venv
-source venv/bin/activate  # On Windows, use: venv\Scripts\activate
-```
-
-**3. Install Dependencies**
+**2. Install Dependencies**
 ```sh
 pip install -r requirements.txt
 ```
 
-**4. Run sample App**
+**3. Run sample App**
 ```sh
 streamlit run streamlit_app.py
 ```
