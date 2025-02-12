@@ -31,6 +31,25 @@ This is a fully voice-enabled chatbot that allows users to interact using spoken
 
 ---
 
+## Project Structure
+```
+│── check/
+│   ├── stt_to_tts.ipynb         # STT to TTS flow test
+│   ├── asr_whisper_check.py      # Speech-to-Text (Whisper AI)
+│   ├── asr_check.py              # Speech-to-Text (Assembly AI)
+│   ├── llm_check.py              # Language Model Processing (Groq AI)
+│   ├── tts_check.py              # Text-to-Speech (Coqui AI)
+│   ├── tts_hf_check.py           # Text-to-Speech (Hugging Face T5)
+│── utils.py                      # Utility functions for STT, LLM, and TTS
+│── streamlit.py                   # Frontend implementation (Streamlit)
+│── FastAPI.py                     # Backend implementation (FastAPI)
+│── openAPI_utils.py               # OpenAI utilities for STT, LLM, and TTS
+│── openAPI_streamlit.py           # Alternative frontend (Streamlit with OpenAI)
+│── openAPI_FastAPI.py             # Alternative backend (FastAPI with OpenAI)
+│── requirements.txt               # Project dependencies
+│── README.md                      # Documentation
+```
+---
 ## Installation
 
 **1. Clone the Repository**
@@ -63,34 +82,28 @@ The chatbot provides the following REST API endpoints:
 
 ---
 
-## Project Structure
-```
-│── check/
-│   ├── stt_to_tts.ipynb         # STT to TTS flow test
-│   ├── asr_whisper_check.py      # Speech-to-Text (Whisper AI)
-│   ├── asr_check.py              # Speech-to-Text (Assembly AI)
-│   ├── llm_check.py              # Language Model Processing (Groq AI)
-│   ├── tts_check.py              # Text-to-Speech (Coqui AI)
-│   ├── tts_hf_check.py           # Text-to-Speech (Hugging Face T5)
-│── utils.py                      # Utility functions for STT, LLM, and TTS
-│── streamlit.py                   # Frontend implementation (Streamlit)
-│── FastAPI.py                     # Backend implementation (FastAPI)
-│── openAPI_utils.py               # OpenAI utilities for STT, LLM, and TTS
-│── openAPI_streamlit.py           # Alternative frontend (Streamlit with OpenAI)
-│── openAPI_FastAPI.py             # Alternative backend (FastAPI with OpenAI)
-│── requirements.txt               # Project dependencies
-│── README.md                      # Documentation
-```
+## Technologies Used
+- Speech-to-Text (ASR): Whisper AI, Assembly AI
+- LLM (AI Processing): Groq AI, OpenAI GPT API
+- Text-to-Speech (TTS): Coqui AI, Hugging Face T5, ElevenLabs
+- Backend Framework: FastAPI
+- Frontend Framework: Streamlit
+- Async Processing: WebSockets, asyncio
 
 ---
 
-## Technologies Used
-- **Speech-to-Text (ASR)**: Whisper AI, Assembly AI
-- **LLM (AI Processing)**: Groq AI, OpenAI GPT API
-- **Text-to-Speech (TTS)**: Coqui AI, Hugging Face T5, ElevenLabs
-- **Backend Framework**: FastAPI
-- **Frontend Framework**: Streamlit
-- **Async Processing**: WebSockets, asyncio
+## Resources
+•	https://openai.com/index/whisper/
+•	https://github.com/coqui-ai/TTS
+•	https://www.gradio.app/guides/quickstart
+•	https://www.assemblyai.com/docs
+•	https://elevenlabs.io/docs/api-reference/introduction
+•	https://docs.tavily.com/guides/introduction
+•	https://console.groq.com/docs/speech-text
+•	https://cookbook.openai.com/examples/voice_solution
+•	https://fastapi.tiangolo.com/
+•	http://127.0.0.1:8000/redoc
+•	http://127.0.0.1:8000/docs
 
 ---
 
