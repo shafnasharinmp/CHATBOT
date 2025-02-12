@@ -79,9 +79,9 @@ This is a fully voice-enabled chatbot that allows users to interact using spoken
 ---
 
 ## Technologies Used
-- Speech-to-Text (ASR): Whisper AI, Assembly AI
-- LLM (AI Processing): Groq AI, OpenAI GPT API
-- Text-to-Speech (TTS): Coqui AI, Hugging Face T5, ElevenLabs
+- ASR: Whisper AI, Assembly AI
+- LLM: Groq AI, OpenAI GPT API
+- TTS: Coqui AI, Hugging Face T5, ElevenLabs
 - Backend Framework: FastAPI
 - Frontend Framework: Streamlit
 - Async Processing: WebSockets, asyncio
@@ -90,9 +90,18 @@ In my Draft :
 
 Assembly AI : Speech-to-text transcription with advanced AI models.<br>
 Groq AI : High-speed inference for LLMs, optimizing AI performance(Low Latency).<br>
-Tavily AI : AI-driven web search and data extraction for real-time insights.<br>
 Coqui AI : open-source text-to-speech (TTS) models for lifelike voice synthesis.<br>
-ElevenLabs : AI-powered text-to-speech (TTS) with ultra-realistic voice synthesis.
+<br>
+Tavily AI : AI-driven web search and data extraction for real-time insights.<br>
+ElevenLabs : AI-powered text-to-speech (TTS) with ultra-realistic voice synthesis.<br>
+<br>
+Whisper AI: OpenAI’s speech-to-text model for accurate transcription.<br>
+OpenAI GPT API: Advanced NLP for text generation and chatbots.<br>
+Hugging Face T5: Transformer-based text-to-text model for NLP tasks.<br>
+FastAPI: High-performance Python framework for APIs.<br>
+Streamlit: Easy web app framework for data science.<br>
+WebSockets: Real-time communication between client and server.<br>
+asyncio: Python’s async programming for better concurrency.
 
 ---
 
