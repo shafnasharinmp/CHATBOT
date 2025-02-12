@@ -35,7 +35,7 @@ This is a fully voice-enabled chatbot that allows users to interact using spoken
 
 **1. Clone the Repository**
 ```sh
-git clone https://github.com/shafnasharinmp/voice-enabled-chatbot.git
+git clone https://github.com/shafnasharinmp/CHATBOT.git
 cd voice-enabled-chatbot
 ```
 
