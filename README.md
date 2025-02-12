@@ -14,10 +14,13 @@ This is a fully voice-enabled chatbot that allows users to interact using spoken
 ✅ **End-to-end voice-based interaction**
 - **STT (Speech-to-Text)**: Implemented using Whisper AI and Assembly AI.
 - **TTS (Text-to-Speech)**: Uses Coqui AI, Hugging Face T5, and ElevenLabs.
+<br>
 ✅ **Supports natural language understanding via LLM**
 - Integrated with Groq AI and OpenAI.
+<br>
 ✅ **Low-latency response generation**
 - Optimized using asynchronous processing.
+<br>
 ✅ **Modular and extensible architecture**
 - Allows easy customization and integration with other AI services.
 
