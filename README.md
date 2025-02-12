@@ -33,13 +33,13 @@ This is a fully voice-enabled chatbot that allows users to interact using spoken
 
 ## Installation
 
-### 1. Clone the Repository
+**1. Clone the Repository**
 ```sh
 git clone https://github.com/shafnasharinmp/voice-enabled-chatbot.git
 cd voice-enabled-chatbot
 ```
 
-### 2. Create a Virtual Environment (Optional)
+**2. Create a Virtual Environment (Optional)**
 ```sh
 python -m venv venv
 source venv/bin/activate  # On Windows, use: venv\Scripts\activate
