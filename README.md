@@ -50,26 +50,6 @@ This is a fully voice-enabled chatbot that allows users to interact using spoken
 │── README.md                      # Documentation
 ```
 ---
-## Installation
-
-**1. Clone the Repository**
-```sh
-git clone https://github.com/shafnasharinmp/CHATBOT.git
-cd voice-enabled-chatbot
-```
-
-**2. Create a Virtual Environment (Optional)**
-```sh
-python -m venv venv
-source venv/bin/activate  # On Windows, use: venv\Scripts\activate
-```
-
-**3. Install Dependencies**
-```sh
-pip install -r requirements.txt
-```
-
----
 
 ## API Endpoints
 The chatbot provides the following REST API endpoints:
@@ -93,10 +73,8 @@ The chatbot provides the following REST API endpoints:
 ---
 
 ## Resources
-•	https://openai.com/index/whisper/
-<br>
-•	https://github.com/coqui-ai/TTS
-<br>
+•	https://openai.com/index/whisper/<br>
+•	https://github.com/coqui-ai/TTS<br>
 •	https://www.gradio.app/guides/quickstart<br>
 •	https://www.assemblyai.com/docs<br>
 •	https://elevenlabs.io/docs/api-reference/introduction<br>
@@ -109,6 +87,25 @@ The chatbot provides the following REST API endpoints:
 
 ---
 
+## Installation
+
+**1. Clone the Repository**
+```sh
+git clone https://github.com/shafnasharinmp/CHATBOT.git
+cd voice-enabled-chatbot
+```
+
+**2. Create a Virtual Environment (Optional)**
+```sh
+python -m venv venv
+source venv/bin/activate  # On Windows, use: venv\Scripts\activate
+```
+
+**3. Install Dependencies**
+```sh
+pip install -r requirements.txt
+```
+---
 ## Contribution Guidelines
 
 1. Fork the repository and create a new branch (`feature/your-feature`).
