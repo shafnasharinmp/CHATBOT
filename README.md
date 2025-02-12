@@ -53,8 +53,7 @@ from utils
 ---
 
 ## Project Structure
-```
-voice-enabled-chatbot/
+**```
 │── check/
 │   ├── stt_to_tts.ipython        # stt to tss flow
 │   ├── asr_whisper_check.py         # Speech-to-Text ( Whisper)
@@ -71,7 +70,7 @@ voice-enabled-chatbot/
 │── openAPI_requirements.txt   # Dependencies
 │── requirements.txt   # Dependencies
 │── README.md          # Documentation
-```
+```**
 
 ---
 
